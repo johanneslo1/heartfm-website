@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- ======== Developed by Johannes Lohmann - Technikclou.com ======== -->
+
+  	<meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  	<title>HeartFM</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Amiko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <!--
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#151125",
+          "text": "#ffffff"
+        },
+        "button": {
+          "background": "#d72638",
+          "text": "#ffffff"
+        }
+      },
+      "content": {
+        "message": "Diese Webseite verwendet Cookies um eine bessere Benutzerfreundlichkeit zu gewährleisten.",
+        "dismiss": "Verstanden!",
+        "link": "Mehr erfahren"
+      }
+    })});
+    </script>
+  -->
+  </head>
+  <body>
+
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <!-- <a class="navbar-brand" href="#"><i class="fa fa-heart"></i>&nbsp;&nbsp;HeartFM</a> -->
+        <div class="navbar-brand">
+          <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          eartFM
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-text wow fadeIn">
+              <h1><span class="highlight">Heart</span>FM</h1>
+              <p>
+                HeartFM ist dein Web- und Teamspeak Radio
+              </p>
+              <button class="btn btn-primary" id="play-music">Musik hören</button>
+                &nbsp;&nbsp;
+              <a href="#" class="btn btn-secondary">LautFM besuchen</a>
+            </div>
+            <div class="d-flex justify-content-center wow fadeInUp">
+              <a data-scroll="#about" href="#about" class="scroll-icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svg-wrapper" id="about">
+      <section id="about-section">
+        <div class="about-text">
+          <div class="about-text-heading text-center">
+            <img src="assets/img/logo.png" class="img-fluid wow bounceIn" width="200"/>
+            <h2 class="wow fadeIn">Was macht <span class="highlight">Heart</span>FM aus?</h2>
+          </div>
+          <p class="wow fadeIn">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolor dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </section>
+
+      <svg id="play-svg" width="100%" viewBox="0 0 800 600">
+          <defs><path d="M0 642.86L390.31 321.43L0 321.43L0 642.86Z" id="g1DB6CQxWj"></path><path d="M0 549.59L278.79 320L0 320L0 549.59Z" id="nZIZ4ikLM"></path><path d="M0 0L390.31 321.43L0 321.43L0 0Z" id="l7EzRuElvo"></path><path d="M-1.73 91.84L277.06 321.43L-1.73 321.43L-1.73 91.84Z" id="bqch0b5DE"></path><path d="M0.38 451.21L158.09 321.34L0.38 321.34L0.38 451.21Z" id="jBLfMIcEv"></path><path d="M0.38 191.64L158.09 321.52L0.38 321.52L0.38 191.64Z" id="c2LUlsUzbG"></path></defs><g><g><use xlink:href="#g1DB6CQxWj" opacity="1" fill="#d72638" fill-opacity="1"></use></g><g><use xlink:href="#nZIZ4ikLM" opacity="1" fill="#151125" fill-opacity="1"></use></g><g><use xlink:href="#l7EzRuElvo" opacity="1" fill="#d72638" fill-opacity="1"></use></g><g><use xlink:href="#bqch0b5DE" opacity="1" fill="#151125" fill-opacity="1"></use></g><g><use xlink:href="#jBLfMIcEv" opacity="1" fill="#d72638" fill-opacity="1"></use></g><g><use xlink:href="#c2LUlsUzbG" opacity="1" fill="#d72638" fill-opacity="1"></use></g></g>
+      </svg>
+
+      <section id="team">
+        <div class="team-heading">
+          <h2 class="wow fadeIn">Das <span class="highlight">Heart</span>FM Team</h2>
+        </div>
+        <div class="team-row">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="team-card wow fadeIn">
+                  <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                  <h4>Florian | DasLyro</h4>
+                  <p>
+                    Zuständig für Bewerbungen und Verwaltung.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="team-card wow fadeIn">
+                  <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                  <h4>Florian | DasLyro</h4>
+                  <p>
+                    Zuständig für Bewerbungen und Verwaltung.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row team-row2">
+            <div class="col-md-4">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 team-hidden">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 team-hidden">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 team-hidden">
+              <div class="team-card wow fadeIn">
+                <img src="assets/img/florian-avatar.png" class="img-fluid mx-auto d-block wow bounceIn" title="DasLyro's Avatar"/>
+                <h4>Florian | DasLyro</h4>
+                <p>
+                  Zuständig für Bewerbungen und Verwaltung.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 text-center">
+              <button id="show-more-button" class="btn btn-secondary">Mehr anzeigen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="features">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2>Das zeichnet <span class="highlight">Heart</span>FM aus</h2>
+            <hr />
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-ticket"></i>
+            <h3>Schneller Support</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-volume-up"></i>
+            <h3>Beste Soundqualität</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-clock-o"></i>
+            <h3>24/7 Online</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-refresh"></i>
+            <h3>Immer neue Playlisten</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-heart"></i>
+            <h3>Liebe zur Musik</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-pencil-square-o"></i>
+            <h3>Eigene Musik</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minim veniam, quis nostrud exerca.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p><a style="color: #fff" href="impressum.html">Impressum</a> & <a style="color: #fff" href="datenschutzerklärung.html">Datenschutzerklärung</a> | Website developed by <a href=https://technikclou.com>Johannes Lohmann</a></p>
+          </div>
+          <div class="col-md-4">
+            <div class="social-media">
+              <a href="http://twitter.com"><i class="fa fa-twitter" style="color: #1da1f2"></i></a>
+              <a href="http://youtube.com"><i class="fa fa-youtube-play" style="color: #ff0000"></i></a>
+              <a href="http://facebook.com"><i class="fa fa-facebook-square" style="color: #4267b2"></i></a>
+              <a href="http://instagram.com"><i class="fa fa-instagram" style="color: #fff"></i></a>
+              <a href="http://snapchat.com"><i class="fa fa-snapchat-square" style="color: #FFFC00"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="music-player">
+      <div class="song-thumbnail">
+        <img id="song-thumbnail" src="assets/img/logo.png" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Song Thumbnail" alt="Song Thumbnail" />
+      </div>
+        <div class="song-info">
+          <img src="assets/img/logo.png" class="img-fluid" />
+          <p data-toggle="tooltip" data-placement="top" title="Song Titel" id="current-song"></p>
+          <!--
+          <div id="player">
+            <i class="fa fa-volume-down"></i>
+              <div id="volume"></div>
+            <i class="fa fa-volume-up"></i>
+          </div>
+        -->
+        </div>
+        <div class="controls ">
+          <button class=""  id="volume-button" data-toggle="tooltip" data-placement="top" title="Lautstärke"><i class="fa fa-volume-up"></i></button>
+          <button class="play-button" id="play-button" data-toggle="tooltip" data-placement="top" title="Start / Stop"><i class="fa fa-play"></i></button>
+          <button class="" id="step-forward-button"><i class="fa fa-step-forward" data-toggle="tooltip" data-placement="top" title="Vorwärts zur"></i></button>
+        </div>
+    </div>
+
+  </body>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/jquery.cookie.min.js"></script>
+  <script src="assets/js/smooth-scroll.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</html>
